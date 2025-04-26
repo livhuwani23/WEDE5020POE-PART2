@@ -6,7 +6,7 @@
 
 .main{
     width: 100px;
-    background: linear-gradient(to top, rgba(0,0,0,0,5)50%,rgba(0,0,0,0,5)50%,),url(https:
+    background: linear-gradient(to top, rgba(0,0,0,0,5)50%,rgba(0,0,0,0,5)50%,)
     background-position: cover;
 
 }
