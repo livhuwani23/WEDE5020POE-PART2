@@ -1,3 +1,7 @@
+header {
+    color: #27292c;
+    margin-bottom: 15px;
+}
 header h1 {
     color: black;
     margin-bottom: 15px;
@@ -18,7 +22,11 @@ ul a {
     transition: all;
 }
 
-
+.header-main {
+    width: 100%;
+    height: 100px;
+    background-color: #27292c;
+}
 
 ul a:hover {
     background: #27292c;
@@ -32,4 +40,8 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+body {
+    background-color: antiquewhite;
 }
