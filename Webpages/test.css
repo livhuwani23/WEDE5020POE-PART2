@@ -1,0 +1,116 @@
+
+.footer {
+
+    color: rgb(26, 24, 24);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333; /* Dark background color */
+    padding: 10px 20px; /* Padding around the navbar */
+}
+
+.navdiv {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and menu */
+    align-items: center; /* Center items vertically */
+}
+
+.logo a {
+    color: #fff; /* White text color for the logo */
+    font-size: 24px; /* Font size for the logo */
+    text-decoration: none; /* Remove underline from link */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points from list */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+ul li {
+    margin-left: 20px; /* Space between menu items */
+}
+
+ul li a {
+    color: #fff; /* White text color for menu items */
+    text-decoration: none; /* Remove underline from links */
+    padding: 8px 16px; /* Padding around menu items */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+ul li a:hover {
+    background-color: #555; /* Darker background on hover */
+    border-radius: 4px; /* Rounded corners on hover */
+}
+
+/* Style for the main heading */
+h2 {
+    font-size: 24px;          /* Set font size */
+    color: #2c3e50;          /* Set text color */
+    text-align: center;      /* Center the heading */
+    margin-bottom: 20px;     /* Space below the heading */
+}
+
+/* Style for the unordered list */
+ul {
+    list-style-type: none;    /* Remove default bullet points */
+    padding: 0;               /* Remove padding */
+    margin: 0;                /* Remove margin */
+}
+
+/* Style for each list item */
+li {
+    font-size: 18px;          /* Set font size for list items */
+    color: #34495e;           /* Set text color */
+    margin: 10px 0;          /* Space between list items */
+}
+
+/* Style for images */
+img {
+    display: block;           /* Make images block elements */
+    margin: 20px auto;       /* Center images with margin */
+    border-radius: 8px;      /* Add rounded corners */
+}
+
+/* Style for paragraphs */
+p {
+    font-size: 16px;          /* Set font size for paragraphs */
+    color: #7f8c8d;           /* Set text color */
+    text-align: center;       /* Center the paragraph text */
+    margin: 15px 0;          /* Space above and below paragraphs */
+}
+
+/* Style for form labels */
+label {
+    font-weight: bold;        /* Make labels bold */
+    display: block;           /* Make labels block elements */
+    margin-top: 10px;        /* Space above labels */
+}
+
+/* Style for input fields */
+input, select, textarea {
+    width: 100%;              /* Full width for input fields */
+    padding: 10px;           /* Padding inside input fields */
+    margin-top: 5px;         /* Space above input fields */
+    border: 1px solid #bdc3c7; /* Border style */
+    border-radius: 4px;      /* Rounded corners */
+}
+
+/* Style for the textarea */
+textarea {
+    resize: vertical;         /* Allow vertical resizing only */
+}
+
+
