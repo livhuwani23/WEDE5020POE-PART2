@@ -113,11 +113,11 @@ textarea {
 }
 
 button {
-    margin: 50px;
+    margin: 20px;
     border-radius: 5px;
     border-color: black;
     background-color: grey;
-    color: red;
+    color: rgb(245, 236, 236);
 }
 
 
