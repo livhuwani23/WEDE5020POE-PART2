@@ -19,7 +19,7 @@
 }
 
 .logo a {
-    color: #f30a0a; /* White text color for the logo */
+    color: #f30a0a; /* red text color for the logo */
     font-size: 24px; /* Font size for the logo */
     text-decoration: none; 
 }
@@ -34,7 +34,7 @@ ul li {
 }
 
 ul li a {
-    color: #f11010; /* White text color for menu items */
+    color: #f11010; /* red text color for menu items */
     text-decoration: none; /* Remove underline from links */
     padding: 8px 16px; /* Padding around menu items */
     transition: background-color 0.3s; 
