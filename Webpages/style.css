@@ -1,13 +1,4 @@
-.footer {
 
-    color: rgb(26, 24, 24);
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    background-color: gray;
-}
 /* General Reset */
 * {
     margin: 0;
@@ -122,6 +113,17 @@ button {
 
 body {
     background-color: bisque;
+}
+
+.footer {
+
+    color: rgb(26, 24, 24);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
 }
 
 
